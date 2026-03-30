@@ -58,5 +58,3 @@
 
 ## Override Rule
 User instructions always override this file.
-
-# References and credits: see README.md
