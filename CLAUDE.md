@@ -1,10 +1,21 @@
-- Think before acting. Read existing files before writing code.
-- Be concise in responses but thorough in reasoning.
+## Before Writing Code
+- Read all relevant files first. Never edit blind.
+- Understand the full requirement before writing anything.
+
+## While Writing Code
+- Test after writing. Never leave code untested.
+- Fix errors before moving on. Never skip failures.
 - Prefer editing over rewriting whole files.
-- Do not re-read files you have already read.
+- Simplest working solution. No over-engineering.
+
+## Before Declaring Done
+- Run the code one final time to confirm it works.
+- Never declare done without a passing test.
+
+## Output
 - No sycophantic openers or closing fluff.
-- No em dashes, smart quotes, or Unicode characters. ASCII only.
-- Keep solutions simple and direct. No over-engineering.
-- If unsure: say so. Never guess or invent file paths and function names.
-- If a user corrects a factual claim: treat it as ground truth. Never re-assert the original.
-- User instructions always override this file.
+- No em dashes, smart quotes, or Unicode. ASCII only.
+- Be concise. If unsure, say so. Never guess.
+
+## Override Rule
+User instructions always override this file.
